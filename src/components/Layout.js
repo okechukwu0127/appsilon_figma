@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Aside from './Aside';
+import Sidebar from "./Sidebar";
 import Main from '../page/Main';
 
 function Layout({ setLocale }) {
@@ -25,8 +25,8 @@ function Layout({ setLocale }) {
   };
 
   return (
-    <div className={`app ${rtl ? 'rtl' : ''} ${toggled ? 'toggled' : ''}`}>
-      <Aside
+    <div className={`app ${rtl ? "rtl" : ""} ${toggled ? "toggled" : ""}`}>
+      <Sidebar
         image={image}
         collapsed={collapsed}
         rtl={rtl}

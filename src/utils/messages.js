@@ -18,10 +18,6 @@ const message = {
     viewSource: "عرض الكود",
   },
   en: {
-    title: "React Pro Sidebar",
-    sidebarTitle: "Pro Sidebar",
-    description:
-      "React sidebar library with dropdown menus and unlimited number of nested submenus",
     dashboard: "Dashboard",
     components: "Components",
     dropdown: "Dropdown",
@@ -47,8 +43,8 @@ const message = {
     plan: "Your Plan : ",
     planType: " Free",
     newPlan: "Create New Plan",
-    claim:"Claim"
+    claim: "Claim",
   },
-}; 
+};
 
-export default message
+export default message;

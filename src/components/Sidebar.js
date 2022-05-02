@@ -9,10 +9,7 @@ import {
   SidebarFooter,
   SidebarContent,
 } from "react-pro-sidebar";
-import {
-  
-  FaRegUserCircle,
-} from "react-icons/fa";
+import { FaRegUserCircle } from "react-icons/fa";
 
 import { FiLogOut, FiGrid } from "react-icons/fi";
 import { MdOutlinePolicy, MdOutlineBugReport } from "react-icons/md";
@@ -22,7 +19,7 @@ import { ImFileText2 } from "react-icons/im";
 //import sidebarBg from "./../assets/bg1.jpg";
 import Assets from "../assets/Assets";
 
-const Aside = ({ image, collapsed, rtl, toggled, handleToggleSidebar }) => {
+const Sidebar = ({ image, collapsed, rtl, toggled, handleToggleSidebar }) => {
   const intl = useIntl();
   return (
     <ProSidebar
@@ -41,7 +38,7 @@ const Aside = ({ image, collapsed, rtl, toggled, handleToggleSidebar }) => {
             alt="Logo"
             src={Assets.IMAGE.icon}
             width={20}
-            style={{ textAlign: "center" }}
+            className="center"
           />
 
           <span className="logoName">{intl.formatMessage({ id: "logo" })}</span>
@@ -51,11 +48,8 @@ const Aside = ({ image, collapsed, rtl, toggled, handleToggleSidebar }) => {
           width="78"
           height="78"
           alt="User"
-          style={{
-            alignSelf: "center",
-            marginTop: 25,
-            //border: "2px solid rgba(11, 102, 102, 1)",
-          }}
+          className="alSelfCenter marTop29"
+          style={{ marginTop: 29 }}
         />
         <div className="helloMessage">
           {intl.formatMessage({ id: "hello" })}
@@ -64,32 +58,22 @@ const Aside = ({ image, collapsed, rtl, toggled, handleToggleSidebar }) => {
           {intl.formatMessage({ id: "welcome" })}
         </div>
 
-        <div
-          className="flex-container"
-          style={{
-            textAlign: "center",
-            justifyContent: "center",
-            marginTop: 5,
-          }}
-        >
+        <div className="flex-container plan1">
           <div className="plan">{intl.formatMessage({ id: "plan" })} </div>
-          <div className="planType" style={{ paddingLeft: 5 }}>
-            {intl.formatMessage({ id: "planType" })}{" "}
+          <div className="planType paddLeft5">
+            {intl.formatMessage({ id: "planType" })}
           </div>
         </div>
 
-        <div
-          className="NewPlan flex-container"
-          style={{ justifyContent: "space-between" }}
-        >
-          <div style={{ justifyContent: "flex-start", paddingLeft: 15 }}>
+        <div className="NewPlan flex-container justContentBetween">
+          <div className="justContentStart paddLeft15">
             {intl.formatMessage({ id: "newPlan" })}
           </div>
-          <div style={{ justifyContent: "flex-end", paddingRight: 15 }}>+</div>
+          <div className="justContentEnd paddRight15">+</div>
         </div>
       </SidebarHeader>
 
-      <SidebarContent style={{ alignSelf: "center" }}>
+      <SidebarContent className="alSelfCenter">
         <Menu iconShape="circle">
           <MenuItem icon={<FiGrid size={20} />}>
             {intl.formatMessage({ id: "overview" })}
@@ -115,13 +99,8 @@ const Aside = ({ image, collapsed, rtl, toggled, handleToggleSidebar }) => {
         </Menu>
       </SidebarContent>
 
-      <SidebarFooter style={{ textAlign: "center", border: "0px solid red" }}>
-        <div
-          className="sidebar-btn-wrapper"
-          style={{
-            padding: "20px 24px"
-          }}
-        >
+      <SidebarFooter className="center border0" style={{ border: "0px" }}>
+        <div className="sidebar-btn-wrapper">
           <a
             href="#"
             target="_blank"
@@ -141,4 +120,4 @@ const Aside = ({ image, collapsed, rtl, toggled, handleToggleSidebar }) => {
   );
 };
 
-export default Aside;
+export default Sidebar;
