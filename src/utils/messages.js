@@ -44,6 +44,9 @@ const message = {
     planType: " Free",
     newPlan: "Create New Plan",
     claim: "Claim",
+    percClaim: "20% Safe On Your First Account",
+    newBi: "NEWBIE20",
+    copyC: "Copy Code",
   },
 };
 

@@ -33,7 +33,7 @@ const Sidebar = ({ image, collapsed, rtl, toggled, handleToggleSidebar }) => {
       onToggle={handleToggleSidebar}
     >
       <SidebarHeader className="SidebarHeader">
-        <div className="flex-container">
+        <div className="flex-container justContentCenter">
           <img
             alt="Logo"
             src={Assets.IMAGE.icon}

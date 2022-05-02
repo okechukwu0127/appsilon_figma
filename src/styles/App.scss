@@ -85,6 +85,10 @@ body {
 
     color: #a2a4b9;
   }
+  .footerHight {
+    height: 250px;
+    border: "1px solid red";
+  }
 
   .planType {
     font-weight: 400;
@@ -109,7 +113,7 @@ body {
     font-weight: 700;
     font-size: 14px;
     line-height: 32px;
-
+    margin-left: 5.6%;
     color: #fffbfb;
   }
 
@@ -153,6 +157,15 @@ body {
     padding-top: -10px;
   }
 
+  .logoNameMobile {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    padding-left: 10px;
+    padding-top: -10px;
+  }
+
   .logOut {
     font-style: normal;
     font-weight: 600;
@@ -164,13 +177,12 @@ body {
     background-color: #fff;
   }
 
-  .navbar-expand-lg .navbar-nav .nav-link {
+  .navbar-nav .nav-link {
     padding-right: 2rem !important;
   }
 
   .navbar-light .navbar-nav .nav-link.active {
     color: $highlight-color !important;
-    
   }
 
   .navbar-light .navbar-nav a.overviewL:hover:after {
@@ -230,10 +242,14 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
+  .hide {
+    display: none !important;
+  }
+
   .btn-toggle {
     cursor: pointer;
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     background: $highlight-color;
     color: #fff;
     text-align: center;
@@ -244,9 +260,14 @@ body {
     font-size: 15px;
     display: none;
     z-index: 1000;
-    margin-left: 20px;
-    margin-top: 15px;
+
     position: absolute;
+
+    //margin-left: 20px;
+    //margin-top: 15px;
+
+    right: 15px;
+    margin-top: 0px;
   }
 
   .sidebar-btn-wrapper {
@@ -311,6 +332,7 @@ body {
   .alSelfCenter {
     align-self: center;
   }
+
   .marTop29 {
     margin-top: 29;
   }
@@ -323,6 +345,9 @@ body {
     padding-right: 15px;
   }
 
+  .justContentCenter {
+    justify-content: center;
+  }
   .justContentStart {
     justify-content: flex-start;
   }
@@ -493,7 +518,7 @@ body {
     position: absolute;
     top: 40%;
     margin-top: -25px;
-    right: 19%;
+    right: 12%;
   }
 
   @media only screen and (min-width: 600px) {

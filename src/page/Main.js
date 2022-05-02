@@ -15,12 +15,15 @@ const Main = ({
 }) => {
   return (
     <main>
-      <div className="btn-toggle" onClick={() => handleToggleSidebar(true)}>
+      {/* <div
+        className="btn-toggle d-none"
+        onClick={() => handleToggleSidebar(true)}
+      >
         <FiNavigation />
-      </div>
+      </div> */}
 
       <header className="shadowNavBar mainHeader">
-        <NavbarMenu />
+        <NavbarMenu handleToggleSidebar={() => handleToggleSidebar} />
       </header>
 
       <div className="body">
@@ -34,16 +37,7 @@ const Main = ({
       </div>
 
       <footer>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+        <div className="footerHight"/>
       </footer>
     </main>
   );

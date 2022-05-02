@@ -21,6 +21,7 @@ function Layout({ setLocale }) {
   };
 
   const handleToggleSidebar = (value) => {
+   
     setToggled(value);
   };
 
