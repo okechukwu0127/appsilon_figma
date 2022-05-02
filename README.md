@@ -1,13 +1,12 @@
-# Appsilon Figma  Mockup Design
+# Appsilon Figma Mockup Design
 
 The purpose of this task is to let you show your best skills and techniques in frontend development. Please use the graphical mockup of a dashboard below and implement it in a technology of your choice. If you have any questions, please be sure to send us an email!
 
-
-
 Open [Figma Link](https://www.figma.com/file/adJlNqUx0AjEi1LSItxK3d/Source-file?node-id=0%3A1)
 
-## 
- ![FIGMA](./src/assets/Insurance_portal.png)
+##
+
+![FIGMA](./src/assets/Insurance_portal.png)
 
 ## `Requirements`
 
@@ -21,7 +20,7 @@ Open [Figma Link](https://www.figma.com/file/adJlNqUx0AjEi1LSItxK3d/Source-file?
 
 # `Solution`
 
-- [Demo Link](http://localhost:3000)
-- Programing Language : `ReactJs` ,Scss, HTML,CSS, Javascript
-- Code Editor: `VsCode`
+- [Demo Link](https://appsilon-frontend.web.app/)
+- Programing Language : `ReactJs`, SCSS,HTML, CSS, Javascript
+- Code Editor: `VS-Code`
 - Version Control: `Git`
