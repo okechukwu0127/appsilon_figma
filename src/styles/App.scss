@@ -170,7 +170,7 @@ body {
 
   .navbar-light .navbar-nav .nav-link.active {
     color: $highlight-color !important;
-    // text-decoration: underline;
+    
   }
 
   .navbar-light .navbar-nav a.overviewL:hover:after {
@@ -199,9 +199,8 @@ body {
     transition-duration: 0.75s;
   }
 
-
-
-  .navbar-light .navbar-nav a.reportsL:hover:after, navbar-light .navbar-nav .nav-link.active {
+  .navbar-light .navbar-nav a.reportsL:hover:after,
+  navbar-light .navbar-nav .nav-link.active {
     content: "";
     position: absolute;
     width: 2%;
@@ -214,26 +213,10 @@ body {
     transition-duration: 0.75s;
   }
 
-
   .navbar-light .navbar-nav a:hover {
-    //color: $highlight-color;
-  }
-  /* 
-  .navbar-light .navbar-nav a:after {
-    content: "";
-    width: 100%;
-    transform: scaleX(0);
-    background-color: $highlight-color;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
+    color: $highlight-color;
   }
 
-  .navbar-light .navbar-nav a:after:hover {
-    transform: scaleX(1);
-    color: $highlight-color !important;
-    transform-origin: bottom left;
-  }
- */
   .ProSidebar {
     border-bottom-right-radius: 50px;
     border: "3px solid red";
