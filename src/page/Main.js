@@ -1,5 +1,4 @@
 import React from "react";
-import { FiNavigation } from "react-icons/fi";
 import NavbarMenu from "./../components/Navbar";
 import CardData from "./../components/Card";
 import CardSlider from "./../components/CardSlider";

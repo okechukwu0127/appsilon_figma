@@ -23,7 +23,7 @@ const Sidebar = ({ image, collapsed, rtl, toggled, handleToggleSidebar }) => {
   const intl = useIntl();
   return (
     <ProSidebar
-      className="shadowBox ProSidebar"
+      className="sidebarShaow ProSidebar"
       //image={image ? sidebarBg : false}
       image={false}
       rtl={rtl}
@@ -82,7 +82,7 @@ const Sidebar = ({ image, collapsed, rtl, toggled, handleToggleSidebar }) => {
             {intl.formatMessage({ id: "policy" })}
           </MenuItem>
 
-          <MenuItem icon={<MdOutlineBugReport size={25} />}>
+          <MenuItem active={true} icon={<MdOutlineBugReport size={25} />}>
             {intl.formatMessage({ id: "report" })}
           </MenuItem>
           <MenuItem icon={<SiMicrosoftoffice size={20} />}>

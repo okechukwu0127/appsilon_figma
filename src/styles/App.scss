@@ -17,6 +17,7 @@ body {
   height: 100vh;
   color: #353535;
   font-family: "Segoe UI", sans-serif;
+  background: rgb(244, 245, 249) !important;
 }
 
 #root {
@@ -211,6 +212,21 @@ body {
     transition-duration: 0.75s;
   }
 
+  .navbar-light .navbar-nav a.reportsL:after
+  {
+    content: "";
+    position: absolute;
+    width: 2%;
+    left: 19.8%;
+    display: block;
+    height: 2px;
+    background-color: $highlight-color;
+    bottom: 10px;
+    transition: $animate;
+    transition-duration: 0.75s;
+
+  }
+
   .navbar-light .navbar-nav a.reportsL:hover:after,
   navbar-light .navbar-nav .nav-link.active {
     content: "";
@@ -234,12 +250,19 @@ body {
     border: "3px solid red";
   }
 
+  .sidebarShaow {
+    box-shadow: 10px 3px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 20px 0px 20px 20px;
+  }
+
   .shadowBox {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
   .shadowNavBar {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    // background: #FFFFFF;
+    box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 20px 0px 0px;
   }
 
   .hide {
@@ -470,6 +493,12 @@ body {
     }
   }
 
+  .pro-sidebar > .pro-sidebar-inner {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+
   .CardSliderData {
     background-image: url("./../assets/sliderBg_.png");
     height: 350px;
@@ -543,9 +572,6 @@ body {
       width: 98%;
     }
 
-    .cardChild {
-      //right: auto;
-    }
 
     .cardTitle {
       font-weight: 300;
@@ -683,8 +709,18 @@ body {
       right: auto;
     }
 
+    .shadowNavBar {
+      border-radius: 0px 0px 0px 0px;
+    }
+    .pro-sidebar > .pro-sidebar-inner {
+      border-top-left-radius: 0px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+    }
+
     .CardSliderData {
       width: 97%;
+      height: 250px;
     }
 
     .shadowNavBar {
@@ -711,7 +747,7 @@ body {
     }
 
     main {
-      padding: 14px;
+      padding: 8px;
     }
     header {
       position: absolute;
