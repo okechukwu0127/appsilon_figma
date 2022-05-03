@@ -212,6 +212,11 @@ body {
     transition-duration: 0.75s;
   }
 
+  .navbar-light .navbar-nav a.reportsL
+  {
+    color:$highlight-color;
+  }
+
   .navbar-light .navbar-nav a.reportsL:after
   {
     content: "";
@@ -224,6 +229,7 @@ body {
     bottom: 10px;
     transition: $animate;
     transition-duration: 0.75s;
+    
 
   }
 
