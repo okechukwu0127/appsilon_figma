@@ -1,6 +1,6 @@
 # Appsilon Figma Mockup Design
 
-The purpose of this task is to let you show your best skills and techniques in frontend development. Please use the graphical mockup of a dashboard below and implement it in a technology of your choice. If you have any questions, please be sure to send us an email!
+The purpose of this task is to let you show you my best skills and techniques in frontend development. Please use the graphical mockup of a dashboard below and implement it in a technology of your choice. If you have any questions, please be sure to send us an email!
 
 Open [Figma Link](https://www.figma.com/file/adJlNqUx0AjEi1LSItxK3d/Source-file?node-id=0%3A1)
 
